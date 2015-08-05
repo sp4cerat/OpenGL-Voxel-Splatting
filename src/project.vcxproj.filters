@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{6f8fac40-4325-4561-aa61-b066f828773e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext">
+      <UniqueIdentifier>{373f9713-bf5f-4ee1-95ea-d623df52ea44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{52c4f001-2484-47af-b020-1ae6417fdaa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{db671589-3abf-4435-80c1-bf2c90bb93a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\obj">
+      <UniqueIdentifier>{cb13f5d3-c6d9-4485-ba1c-9ea61c18424a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shader\particle">
+      <UniqueIdentifier>{393ccbf4-8ddd-48c9-bb72-36d3f89277b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ext\glew.cpp">
+      <Filter>ext</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="VecMath.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="Bmp.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="Rle4.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="Tree.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bitmap_fonts.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="OBJ.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Rle4.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="Tree.h">
+      <Filter>util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\shader\particle\frag.txt">
+      <Filter>shader\particle</Filter>
+    </None>
+    <None Include="..\shader\particle\vs.txt">
+      <Filter>shader\particle</Filter>
+    </None>
+    <None Include="..\shader\particle\geo.txt">
+      <Filter>shader\particle</Filter>
+    </None>
+  </ItemGroup>
+</Project>
